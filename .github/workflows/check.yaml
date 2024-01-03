@@ -1,0 +1,10 @@
+on: pull_request
+
+
+jobs:
+  check:
+   runs-on: ubuntu-latest
+   steps:
+   - uses: Slashgear/action-check-pr-title@v4.3.0
+     with:
+        regexp: "([a-z])+" # Regex the title should match.
