@@ -7,4 +7,4 @@ jobs:
    steps:
    - uses: Slashgear/action-check-pr-title@v4.3.0
      with:
-        regexp: "([a-z])+" # Regex the title should match.
+        regexp: "ACDEV*" # Regex the title should match.
